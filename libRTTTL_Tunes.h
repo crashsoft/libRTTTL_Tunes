@@ -28,9 +28,7 @@ class libRTTTL_Tunes {
 	public:
   
     	libRTTTL_Tunes(int);
-
-    	void playTuneNumber(int);
-    	void play_RTTTL(char *p);
+    	bool play_RTTTL(char *p);
 
 	private:
 
